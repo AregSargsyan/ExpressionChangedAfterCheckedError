@@ -1,0 +1,5 @@
+<app-child *ngIf="open" [somedata]="somedata">
+  <div> Content Projection</div>
+</app-child>
+
+<button (click)="open = !open">Open</button>
